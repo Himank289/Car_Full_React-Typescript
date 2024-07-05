@@ -1,0 +1,48 @@
+.car-list-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.car-list-container h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.car-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.car-item:hover {
+    transform: scale(1.02);
+}
+
+.car-item h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.car-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+.car-item a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.car-item a:hover {
+    text-decoration: underline;
+}
